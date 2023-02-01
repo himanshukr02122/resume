@@ -6,7 +6,7 @@ const Resume = () => {
       <div className='container py-5'>
       <div className='col-lg-5 text-light'>
             <h1>Himanshu Kumar</h1>
-            <pre className='text-start'>
+            <pre className='text-start text-break'>
             {`Jr. UI Developer (Earning Designs Pvt Ltd)
 Mob.: 7250028116
 Email: himanshukumar02122@gmail.com
