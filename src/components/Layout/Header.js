@@ -1,19 +1,19 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" className='shadow-none' />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href='/' >Introduction</Nav.Link>
-            <Nav.Link href='/education' >Education</Nav.Link>
-            <Nav.Link href='/careers' >Careers</Nav.Link>
-            <Nav.Link href='/projects' >Projects</Nav.Link>
+          <Nav className="me-auto resume-nav mt-10">
+            <Link to='/' className='fw-bold mx-lg-5' >Introduction</Link>
+            <Link to='/education' className='fw-bold mx-lg-5' >Education</Link>
+            <Link to='/careers' className='fw-bold mx-lg-5' >Careers</Link>
+            <Link to='/projects' className='fw-bold mx-lg-5' >Projects</Link>
           </Nav>
           <Nav>
             <Nav.Link href="https://www.linkedin.com/in/himanshu-kumar-5317aa213/" target='_blank'><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-linkedin" viewBox="0 0 16 16">

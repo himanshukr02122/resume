@@ -1,5 +1,13 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import './base/_base';
 
+
+.resume-nav {
+    a {
+        text-decoration: none;
+        color: var(--color-gray-700);
+    }
+}
 .resume-section {
     background-color: rgba($color: #000000, $alpha: 0.9);
     min-height: 100vh;
@@ -9,7 +17,6 @@ body {
     min-height: 100vh;
 }
 .project-lists {
-    list-style: none;
     a {
         text-decoration: none;
         font-size: 1.2rem;
@@ -20,5 +27,6 @@ body {
     }
     li {
         margin: 0.4rem 0;
+        list-style: circle;
     }
 }

@@ -6,6 +6,7 @@ const Projects = () => {
       <div className='container py-5 text-light'>
         <h2>List of Live Works</h2>
         <ul className='project-lists ps-0 pt-3'>
+          <li><a href='https://63efe0e2c9782623bd3ee0f2--glowing-eclair-9a1e29.netlify.app/' target='_blank' rel="noreferrer" >A static UI of a landing page</a></li>
           <li><a href='http://toyo.thestudiohash.com/' target='_blank' rel="noreferrer">Toyota genuine parts</a></li>
           <li><a href='https://sea-lion-app-ugdos.ondigitalocean.app/' target='_blank' rel="noreferrer" >Maven Silicon</a></li>
           <li><a href='https://expense-tracker-ten-liart.vercel.app/' target='_blank' rel="noreferrer" >Expense Tracker</a></li>
